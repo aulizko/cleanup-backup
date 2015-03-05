@@ -1,0 +1,48 @@
+{
+  "name": "cleanup-backup",
+  "version": "0.0.1",
+  "description": "Delete files based on last modified date on the local file system or over FTP",
+  "main": "lib/cleanup-backup.es6",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "compile": "babel --experimental --optional runtime -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "mocha --require test/babelhook --reporter spec --compilers es6.js:babel/register",
+    "test-travis": "node --harmony node_modules/istanbul-harmony/lib/cli.js cover _mocha --report lcovonly --hook-run-in-context -- --require test/babelhook --compilers es6.js:babel/register --reporter dot"
+  },
+  "keywords": [
+    "cleanup",
+    "backup",
+    "reap",
+    "ftp",
+    "fs",
+    "aws",
+    "delete"
+  ],
+  "homepage": "https://github.com/aulizko/cleanup-backup",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aulizko/cleanup-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aulizko/cleanup-backup/issues"
+  },
+  "author": "Alexander Ulizko <alexander@ulizko.com> (http://ulizko.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^4.6.6",
+    "chalk": "^1.0.0",
+    "fs-reap": "^2.0.0",
+    "ftp-reap": "0.0.2",
+    "yaml-config-loader": "0.0.11",
+    "yargs": "^3.4.5"
+  },
+  "devDependencies": {
+    "babel": "^4.6.6",
+    "chai": "^2.1.0",
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  }
+}

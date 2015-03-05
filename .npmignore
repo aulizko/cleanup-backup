@@ -1,0 +1,10 @@
+src/
+.eslintrc
+.editorconfig
+.gitignore
+.jscsrc
+.idea
+.travis.yml
+test/
+coverage/
+wallaby.js
