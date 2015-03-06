@@ -5,6 +5,4 @@ src/
 .jscsrc
 .idea
 .travis.yml
-test/
 coverage/
-wallaby.js
