@@ -1,6 +1,6 @@
 {
   "name": "cleanup-backup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Delete files based on last modified date on the local file system or over FTP",
   "main": "lib/cleanup-backup.es6",
   "bin": "bin/cli.js",
