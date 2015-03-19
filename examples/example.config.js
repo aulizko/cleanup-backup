@@ -1,7 +1,7 @@
 module.exports = (function () {
     'use strict';
 
-    // let's pretend that we doing something smart here
+    // pretend doing something smart here
     var toWatch = (function () {
         return [
             '/absolute/path/to/dir',
