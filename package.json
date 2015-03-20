@@ -30,19 +30,19 @@
   "author": "Alexander Ulizko <alexander@ulizko.com> (http://ulizko.com/)",
   "license": "MIT",
   "dependencies": {
-    "babel-runtime": "^4.7.1",
-    "chalk": "^1.0.0",
-    "fs-reap": "^2.0.0",
-    "ftp-reap": "^0.0.4",
+    "babel-runtime": "4.7.1",
+    "chalk": "1.0.0",
+    "fs-reap": "2.0.0",
+    "ftp-reap": "0.0.6",
     "yaml-config-loader": "0.0.11",
-    "yargs": "^3.4.5"
+    "yargs": "3.4.5"
   },
   "devDependencies": {
-    "babel": "^4.7.1",
-    "chai": "^2.1.0",
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "^2.1.0",
-    "sinon": "^1.12.2",
-    "sinon-chai": "^2.7.0"
+    "babel": "4.7.1",
+    "chai": "2.1.0",
+    "istanbul-harmony": "0.3.1",
+    "mocha": "2.1.0",
+    "sinon": "1.12.2",
+    "sinon-chai": "2.7.0"
   }
 }
